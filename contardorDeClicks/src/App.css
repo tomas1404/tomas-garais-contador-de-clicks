@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap:1rem
+}
+
+.temporizador{
+  font-size: 50px;
+}
+
+.bottom{
+  width: 7rem;
+  text-align: center;
+}
