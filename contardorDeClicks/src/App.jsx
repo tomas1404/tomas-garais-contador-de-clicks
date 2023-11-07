@@ -2,7 +2,7 @@ import React, { useState , useEffect} from 'react'
 import './App.css'
 
 function App() {
-
+  
   const tiempoDeJuego = 5000
   const tiempoDePresentacion = 1000
 
@@ -15,11 +15,12 @@ function App() {
   const [indexPresentacion, setIndexPresentacion] = useState(0)
 
 
+  // la funcion le suma 1 a count cada vez que se llama
   const sumarAlCount = function () {
     setCount((prevCount) => prevCount + 1);
   };
 
-
+  // la funcion ejecuta la presentacion para empezar el juego
   const mostrarCuentaregresiva = () => {
 
     let incremento = 0;
@@ -40,6 +41,7 @@ function App() {
   };
 
 
+  //esta funcion es la principal donde se muestra el cronometro y se habiletan los botones
   const empiezarJuego = function() {
     
     setHabilitarClickStart(true);
